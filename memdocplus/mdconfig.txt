@@ -1,0 +1,121 @@
+;mode d'emploi
+;pour les tabs : nom du tab
+;pour les menus : nom du menu,executable,titre executable
+;pour les boutons : numero du tab, nom du bouton, executable, titre executable, texte d'infos
+;les rubriques entre crochets indispensables
+[tabs]
+Calculettes
+Scores
+Tests
+Divers
+Utils
+Utils 2
+[endtabs]
+[menus]
+;Nom du programme,fichier.exe,nom de l'appli
+; ex : Minibrowser,minibroser.exe,minibrowser
+Multimod,multimod.exe,multimod
+-
+TipDoc,tipdoc.exe,tipdoc
+-
+Agenda,agenda.exe,agenda
+;- séparation
+;Binomial distribution,bino.exe,binomial distribution
+;-
+;Fractales,fractales.exe,fractales
+[endmenus]
+[buts]
+1,Medcalc,medcalc.exe,medcalc,Evaluateur d'expressions mathématiques médicales
+1,Calculette,__,calc,Calculette
+1,MoneyBack,moneyback.exe,moneyback,Calculateur rendu monnaie
+1,Tracer,tracer.exe,tracer,Traceur de courbes
+1,Clé insee,cleinsee.exe,clé insee,Calcul clé insee
+1,PSADT,__,psadt,Temps de doublement du PSA
+1,Taille,__,taille patient alité,Estimation taille patient alité
+1,Dénutrition,denut.exe,dénutrition,Risque de dénutrition
+1,FC cible,__,fréquence cardiaque cible,Fréquence cardiaque cible
+1,AgeVasc,__,age vasculaire,Estimation de l'âge vasculaire en fonction des facteurs de risque
+;1,Luhn,luhn.exe,check luhn,Vérification de validité
+1,HU,hu.exe,hauteur utérine,Estimation de la hauteur utérine
+1,CardioTraining,cardiot.exe,cardio training,Fréquence cardiaque cible
+1,rECG,recg.exe,recg,Réglette ECG
+1,Biorythme,__,biorythm v1.0,Calcul du biorytme
+2,Arrêts Maladie,am.exe,arrêts maladie,Aide au codage des arrêts maladie
+2,WELLS,wells.exe,score de wells,Score de probabilité clinique de thrombose veineuse profonde
+2,Child-Pugh,cp.exe,child-pugh,Classification pronostic de la sévérité d'une cirrhose
+2,ABCD,__,score abcd de rothwell,Risque d'infarctus cérébral dans la semaine suivant un AIT
+2,CHADS2,__,score chads2,Thrombose et fibrillation auriculaire
+2,Hemorr2ages,__,index hemorr2ages,Risque hémorragique dans l'année sous AVK"
+2,Shireman,__,score shireman,Risque hémorragique patients âgés et FA
+2,Norton,__,score de norton,Evaluation du risque d'escarre
+2,Geneve,ep.exe,score révisé de genève,Risque d'embolie pulmonaire
+2,Fine,fine.exe,score de fine,Prédictif de la mortalité des pneumonies aiguës communautaires
+2,Activité,__,activité physique,Estimation de l'activité physique
+2,Goutte,__,crise de goutte,Score de Nijmegen
+2,QT Long,qtlong.exe,qt long,Score de Schwartz qt long congénital
+2,CHADS-VASc,__,score cha2ds2-vasc,Estimation taux avc/an
+2,HAS-BLED,__,score has-bled,Evaluation du risque hémorragique
+2,PASI,pasi.exe,pasi,PASI score : psoriasis
+2,SC_COV,sc_cov.exe,score covid,Score Covid gravité
+3,HUE,hue15.exe,hue15,Dyschromatopsies
+3,Oeil rouge,or.exe,oeil rouge,Arbre décisionnel oeil rouge
+3,PCT,pct.exe,pct : procalcitonine,Procalcitonine
+3,AVK,avk.exe,surdosage avk,Gestion surdosage AVK
+3,Oncogen,oncogen.exe,oncogénétique,Orientation vers consultation oncogénétique
+3,Anémie,anemie.exe,anémie microcytaire,Diagnoctics différentiels d'anémie
+3,MiniDermato,minidermato.exe,minidermato,Aide mémoire visuel dermato
+3,Scotome,scotome.exe,scotome,Détection du point de scotome
+3,Ostéoporose,osteoporose.exe,osteoporose,Indications thérapeutiques en cas d'ostéoporose - FRAX
+3,Contraception,contra.exe,contraception,Aide mémoire synthétique sur les pilules
+3,Algoplus,algoplus.exe,echelle algoplus,Echelle douleur
+3,Dose TNS,dosetns.exe,dosetns,Calculateur de dose de traitement nicotinique de substitution
+3,CalVac,calvac.exe,calendrier vaccinal,Calendrier vaccinal simplifié
+3,Logopedia,logopedia.exe,logopedia,Rééducation phonétique
+3,Retour,retour.exe,retour,Sondage retour médicaments web
+4,Traducteur,traducteur.exe,traducteur,Traducteur basé sur Google translate
+4,Lexique,lexique.exe,lexique,Lexique français/anglais
+4,MemListe,memliste.exe,memliste,Liste patients
+4,LMC,lmc.exe,lmc,Lexique médico-chirurgical
+4,CPAM/CO,cpamco.exe,cpam/co,Adresses et téléphones des CPAM / CO / Pharmaco-vigilance
+4,Codes postaux,codepost.exe,codes postaux,Liste des codes postaux
+4,QCM,qcm.exe,qcm,Questions choix multiple : outil d'entrainement
+4,QCM ED,qcm_ed.exe,qcm ed,Qcm editeur = éditeur de fichier qcm
+4,DocNote,docnote.exe,doc'note,Gestion des actes
+4,BDC,bdc.exe,bruits du coeur,Bruits du coeur
+4,DefilTexte,defiltexte.exe,defiltexte,Texte défilant, aide mémoire
+4,CalPerp,calperp.exe,calperp,Calendrier perpétuel avec jours fériés, fêtes, vacances
+4,MyApps,myapps.exe,myapps,Lanceur d'applications
+4,Post-It-Board,postitboard.exe,post-it-board,Tableau de post-it aide mémoire
+4,Code128,code128.exe,code 128,Générateur de code barre EAN128
+4,QRCodeGen,qrcodegen.exe,qrcode gen,Générateur de QR code (code barre 2D)
+4,AppLocker,applocker.exe,applocker 2,Limitation de l'accès aux executables
+5,Backup,backup.exe,backup,Sauvegarde de fichiers
+5,7Z Backup,7zbackup.exe,7z Backup,Archivage de dossiers
+5,Protego,protego.exe,protego,Protection de fichiers
+5,SuperDel,superdel.exe,superdel,Effacement sécurisé
+5,SearchFiles,sf.exe,search files,Recherche de fichiers ultra rapide
+5,winClean,winClean.exe,winclean,nettoyeur windows : fichiers temporaires, cookies,...
+5,NTP Time,__,ntp time,Synchronisation de l'horloge avec horloge atomique
+5,Chrono,__,chrono,Chronographe multithread
+5,Horloge,__,horloge,Horloge analogique et numérique
+5,DTMF,__,dtmf,Composeur de numéros téléphoniques (tonalités)
+5,Wtools,wtools.exe,wtools v1.0,Accès aux commandes de windows
+5,Automate 2,automate2.exe,automate 2,Enregistreur souris/clavier
+5,AutoScript,autoscript.exe,autoscript,Automatisation de tâches sous forme de script
+5,µCDplay,µCDplay.exe,µcdplay,Lecteur de CD
+5,MultiClipboard,multiclipboard.exe,multiclipboard,Clipboard multiple
+5,Masterkey,masterkey.exe,masterkey,Gestionnaire de mot de passe
+6,Veilleur,veilleur.exe,veilleur,Bloqueur de la mise en veille
+6,Loupe,loupe.exe,loupe,Loupe
+6,Negato,negato.exe,negato,Négatoscope/occulteur écran
+6,Winpik,winpik.exe,winpik,Capture d'écrans
+6,Mesurer,mesurer.exe,mesurer,Mesureur d'écran
+6,Color,colorpik.exe,colorpik,Affiche la couleur survolée par la souris
+6,OdoMouse,odomouse.exe,odomouse,Mesure souris + déplacement au pixel près avec les touches fléchées
+6,Hash Tool,hashtool.exe,hash tool,Calcul somme de controle
+6,KeyBase,keybase.exe,keybase,Base de données cryptée identifiants/mots de passe
+6,PWGen,__,pwgen,Générateur de mot de passe
+6,HumanPW,humanpw.exe,humanpw,Générateur de mots de passe mémorisable
+6,TreeMemo,treememo.exe,treememo,Organiseur de notes arborescent
+6,RED,red.exe,red,Editeur de texte enrichi
+[endbuts]
